@@ -17,13 +17,11 @@ function Business.init(saved_data_address, Player)
         self.RealEstate = default["RealEstate"]
         self.Production = default["Production"]
         self.Technology = default["Technology"]
-        self.Relations  = default["Relations"]
     else
         print("Saved data found for "..Player.Name)
         self.RealEstate = saved_data_address["RealEstate"]
         self.Production = saved_data_address["Production"]
         self.Technology = saved_data_address["Technology"]
-        self.Relations  = saved_data_address["Relations"]
     end
 
     return self

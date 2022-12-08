@@ -10,6 +10,5 @@ StartingDefaults = {}
 StartingDefaults.RealEstate = {}
 StartingDefaults.Production = {}
 StartingDefaults.Technology = {}
-StartingDefaults.Relations  = {}
 
 return StartingDefaults
